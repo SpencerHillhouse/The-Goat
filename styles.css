@@ -1,0 +1,72 @@
+body {
+  /* background-color: #00a1ec; */
+  background-image: url("Images/water.jpg");
+}
+
+.headers {
+  text-align: center;
+  font-size: 300%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#img1 {
+  width: 800px;
+  height: 800%;
+  display: block;
+  margin: auto;
+}
+
+#img2 {
+  width: 800px;
+  height: 800%;
+  display: block;
+  margin: auto;
+}
+
+#img3 {
+  display: block;
+  margin: auto;
+  padding: 5%;
+}
+
+.tables {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  border-collapse: collapse;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 150%;
+}
+
+th {
+  background-color: #f1d302;
+  border: 1px solid black;
+  padding: 10px;
+  text-align: center;
+}
+
+td {
+  padding: 10px;
+  border: 1px solid black;
+  text-align: center;
+}
+
+tr:nth-child(even) {
+  background-color: black;
+}
+
+.information {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 150%;
+  margin-left: 10%;
+  margin-right: 10%;
+  letter-spacing: 1px;
+  line-height: 200%;
+}
+
+#heading {
+  font-size: 80px;
+  color: gold;
+  text-align: center;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
